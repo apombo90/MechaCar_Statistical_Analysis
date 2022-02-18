@@ -23,13 +23,15 @@ AutosRUs’ newest prototype, the MechaCar, is suffering from production trouble
 
 ### Summary Statistics on Suspension Coils
 
-![image](https://user-images.githubusercontent.com/91766276/153949058-35325195-83bf-4c67-a067-955c641e15bf.png)
-
-![image](https://user-images.githubusercontent.com/91766276/153950252-a21faea7-8d24-45a9-82e6-da4ebbc8835b.png)
 
 *(The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch).* 
 
+![image](https://user-images.githubusercontent.com/91766276/153949058-35325195-83bf-4c67-a067-955c641e15bf.png)
+
 - Looking at the total for all manufacturing lots the variance of the suspensioni coils is **62.3** which means that they meet the design specification.
+
+![image](https://user-images.githubusercontent.com/91766276/153950252-a21faea7-8d24-45a9-82e6-da4ebbc8835b.png)
+
 - However, looking at each lot individually, lots 1 and 2 meet the design specification with **0.98** and **7.47** variance respectively but lot 3 is showing a significant higher variance of **170.29** which exceeds the variance requirement.
 
 ### T-Tests on Suspension Coils
