@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. In order to help the team in this project I will perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes, collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots, run t-tests to determine if the manufacturing lots are statistically different from the mean population and design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. 
+AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. In order to help the team in this project I performed a multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes, collected summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots, ran t-tests to determine if the manufacturing lots are statistically different from the mean population and designed a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. 
 
 ## Resources
 
@@ -16,9 +16,10 @@ AutosRUs’ newest prototype, the MechaCar, is suffering from production trouble
 
 ![image](https://user-images.githubusercontent.com/91766276/153941802-a41ff45e-374f-454e-8d5f-0e0b1e53a9f0.png)
 
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-Is the slope of the linear model considered to be zero? Why or why not?
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+- *Vehicle Lenght* and *Ground Clearance* are statistically unlikely to provide random amounts of variance to the linear model. In other words, *Vehicle Length* and *Ground Clearance* have a significant impact on miles per gallon on the MechaCar prototype. On the other hand, the p-values for *Vehicle Weight, Spoiler Angle and AWD* indicate that they provide random amounts of variance to the model.
+- The **p-value is 5.35e-11** which is much smaller than the assumed significance level of **0.05%**. Therefore, there is sufficient evidence to reject the null hypothesis, which means that the slope of the linear model is not zero.
+- The r-squared value for this model is **0.7149** which means that roughly **71%** of the variablilty of the dependent variable **(MPG)** is explained using this linear model. That is to say, the multuple regression model does predicts the MPG of MechaCar prototypes effectively.
+
 
 ### Summary Statistics on Suspension Coils
 
@@ -26,7 +27,14 @@ Does this linear model predict mpg of MechaCar prototypes effectively? Why or wh
 
 ![image](https://user-images.githubusercontent.com/91766276/153950252-a21faea7-8d24-45a9-82e6-da4ebbc8835b.png)
 
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+*(The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch).* 
+
+- Looking at the total for all manufacturing lots the variance of the suspensioni coils is **62.3** which means that they meet the design specification.
+- However, looking at each lot individually, lots 1 and 2 meet the design specification with **0.98** and **7.47** variance respectively
+
+
+
+- Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 ### T-Tests on Suspension Coils
 
