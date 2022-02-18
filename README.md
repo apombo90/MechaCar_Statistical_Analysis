@@ -36,13 +36,16 @@ AutosRUs’ newest prototype, the MechaCar, is suffering from production trouble
 
 ![image](https://user-images.githubusercontent.com/91766276/153954770-27d17fb3-23c9-440e-939f-b4dd06f9f582.png)
 
+- The mean for all three manufacturing lots is **1498.78** and the p-value is **0.06028** which is higher than the common significance 0.05 percent. Therefore, there is not sufficient evidence to reject the null hypothesis, and the lots' mean is statistically similar to the presumed population mean which is 1500.
+
 ![image](https://user-images.githubusercontent.com/91766276/153956345-d277704f-9273-440d-8c8f-30a8023f7d23.png)
 
-summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+- Analizing each lot separetly, Lot 3 is again the one with different results, its **p-value 0.4168** is lower than the common significance 0.05 percent. This to say, there is sufficient evidence to reject the null hypothesis, and the lot's mean is not statistically similar to the presumed population mean which is 1500.
+- On the other hand, Lot 1 and Lost 2 have p-values of **1** and **0.6072** respectively. This means there is not sufficient evidence to reject the null hypothesis for any of this two lots and their means are statistically similar to the presumed population mean of 1500.
 
 ## Study Design: MechaCar vs Competition
 
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating. 
 In your description, address the following questions:
 What metric or metrics are you going to test?
 What is the null hypothesis or alternative hypothesis?
