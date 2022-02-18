@@ -30,11 +30,7 @@ AutosRUs’ newest prototype, the MechaCar, is suffering from production trouble
 *(The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch).* 
 
 - Looking at the total for all manufacturing lots the variance of the suspensioni coils is **62.3** which means that they meet the design specification.
-- However, looking at each lot individually, lots 1 and 2 meet the design specification with **0.98** and **7.47** variance respectively
-
-
-
-- Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+- However, looking at each lot individually, lots 1 and 2 meet the design specification with **0.98** and **7.47** variance respectively but lot 3 is showing a significant higher variance of **170.29** which exceeds the variance requirement.
 
 ### T-Tests on Suspension Coils
 
