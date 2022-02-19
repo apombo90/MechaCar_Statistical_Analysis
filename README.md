@@ -47,6 +47,18 @@ AutosRUs’ newest prototype, the MechaCar, is suffering from production trouble
 
 ## Study Design: MechaCar vs Competition
 
+The purpose of the statistical study is to compare the performance of the MechaCar vehicles against performance of vehicles from other manufacturers. The performance is based of their 0 to 60 mph time.
+
+**Metrics to be tested:**
+- Horse Power: Would be an *Independent Variable*.
+- Engine Size: Would be an *Independent Variable*.
+- Maintenance Cost: Would be an *Independent Variable*.
+- Number of Gears Would be an *Independent Variable*.
+- Safety Rating: Would be an *Independent Variable*.
+- Fuel efficiency: Would be an *Independent Variable*.
+- 0 to 60 mph time: Would be the *Dependent Variable*.
+
+
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating. 
 In your description, address the following questions:
 What metric or metrics are you going to test?
