@@ -49,7 +49,7 @@ AutosRUs’ newest prototype, the MechaCar, is suffering from production trouble
 
 The purpose of the statistical study is to compare the performance of the MechaCar vehicles against performance of vehicles from other manufacturers. The performance is based of their 0 to 60 mph time.
 
-**Metrics to be tested: **
+### Metrics to be tested:
 - Horsepower: Would be an *Independent Variable*.
 - Engine Size: Would be an *Independent Variable*.
 - Maintenance Cost: Would be an *Independent Variable*.
@@ -58,10 +58,10 @@ The purpose of the statistical study is to compare the performance of the MechaC
 - Fuel efficiency: Would be an *Independent Variable*.
 - 0 to 60 mph time: Would be the *Dependent Variable*.
 
-**Hypothesis: **
+### Hypothesis:
 - Null Hypothesis: If MechaCar vehicles' performance is related to their 0 to 60 mph time, then having a lower time than competitors will show a competitive advantage. 
 - Alternative Hypothesis: If MechaCar vehicles' performance is not related to their 0 to 60 mph time, then having a lower time than competitors will not show a competitive advantage.
 
-**Statistical Test:**
+### Statistical Test:
 For this study the type of statistical test that I would use to test the hypothesis is *Multiple linear Regression* to determine how much variance in the dependent variable is accounted for in a linear combination of independent variables. This to say which variables have the highest impact on the dependent variable.
 
